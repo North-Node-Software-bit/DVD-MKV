@@ -527,57 +527,6 @@ The history is used to avoid repeating sources that have already completed succe
 
 The source also contains an intentionally disruptive theme with animated effects and sound effects. The application includes special handling around enabling this theme.
 
-## Source structure
-
-The current project is implemented as a single Python file.
-
-Conceptually, it contains:
-
-```text
-Imports / constants
-        |
-Settings
-        |
-Custom dialogs
-        |
-Data classes
-        |
-Disc scanning
-        |
-Extraction engine
-        |
-Qt workers/signals
-        |
-Themes/widgets
-        |
-MainWindow
-        |
-Program entry point
-```
-
-For a larger project, this could be split into modules:
-
-```text
-app/
-├── main.py
-├── settings.py
-├── models.py
-├── scanner.py
-├── extractor.py
-├── workers.py
-├── themes.py
-└── ui/
-    ├── main_window.py
-    ├── dialogs.py
-    └── widgets.py
-```
-
-That separation would make the media-processing code easier to test independently from the PyQt6 interface.
-
-## Usage note
-
-Only use the application with media you are legally permitted to copy or process. Media-copying rules vary by jurisdiction and by the material involved.
-
 ## Summary
 
 At a high level, the application works like this:
