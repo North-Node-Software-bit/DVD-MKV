@@ -1,4 +1,5 @@
 # DVD-MKV Digitizer
+<img width="1254" height="1254" alt="DVD-MKV" src="https://github.com/user-attachments/assets/c80817d7-0a56-4a03-9b66-81d42cc4d5e8" />
 
 **DVD-MKV Digitizer** is a desktop media extraction application written in Python with **PyQt6**. It scans optical-media sources, displays discovered titles and tracks, and extracts selected video titles to **MKV** or Audio CD tracks to **FLAC**.
 
